@@ -1,2 +1,6 @@
-1.下载系统（ubuntu-16.04.3-desktop-amd64.iso）
-2.下载jdk（jdk-6u45-linux-x64.bin）
+### 一.下载系统（ubuntu-16.04.3-desktop-amd64.iso）<br />
+### 二.下载jdk（jdk-6u45-linux-x64.bin）<br />
+### 三.下载Vmware Fusion（专业版 8.5.2 (4635224)）<br />
+### 三.安装ubuntu-16.04.3-desktop-amd64<br />
+###（1）配置参数<br />
+处理器：1; 硬盘：80G
