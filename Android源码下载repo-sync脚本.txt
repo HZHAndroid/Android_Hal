@@ -1,0 +1,20 @@
+在进行Android源码下载时,经常会断掉,这时,就得重新输入repo sync,那么,有没有一种方法在断网时自动进行repo sync呢? 在Linux下,还是用脚本来解决这个问题吧.
+
+在要下载源码的目录下,新建一个文件(因为内容特别少,直接用vi编辑就可以了),例如down.sh,内容如下:
+
+#!/bin/sh
+repo sync
+while [ $? -ne 0 ]
+do
+repo sync
+done
+
+然后就可以用如下的方法下载了:
+
+repo init -u https://android.googlesource.com/platform/manifest
+
+sh down.sh
+
+ 
+
+长长的等待开始了.
