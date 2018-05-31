@@ -1,6 +1,6 @@
 ### tar命令(https://www.cnblogs.com/yhjoker/p/7568680.html)
     压缩： 
-    tar -cvjpf etc.tar.bz2 /etc　　//-c为创建一个打包文件，相应的-f后面接创建的文件的名称，使用了.tar.bz2后缀，-j标志使用bzip2压缩，最后面为具体的操作对象/etc目录
+    tar -cvjPf etc.tar.bz2 /etc　　//-c为创建一个打包文件，相应的-f后面接创建的文件的名称，使用了.tar.bz2后缀，-j标志使用bzip2压缩，最后面为具体的操作对象/etc目录
 
     查看：
        tar -tvjf　etc.tar.bz2　　　　　//-t为查看操作，则-f对应所查看的文件的名称，文件后缀显示使用bzip2进行压缩，所以加入-j选项，-v会显示详细的权限信息
