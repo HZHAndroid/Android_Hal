@@ -19,7 +19,7 @@
     压 缩：[＊＊＊＊＊＊＊]$ gzip FileName
 
     03-.tar.gz格式
-    解压：[＊＊＊＊＊＊＊]$ tar zxvf FileName.tar.gz
+    解压：[＊＊＊＊＊＊＊]$ tar zxvf FileName.tar.gz [-C 输出路径]
     压缩：[＊＊＊＊＊＊＊]$ tar zcvf FileName.tar.gz DirName
 
     04-.bz2格式
